@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    background: linear-gradient(136deg, #d17a17, #fcbe15);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-wrapper { 
+    background-color: white;
+    min-width: 350px;
+    min-height: 600px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 14px;
+}
+
+.app-success { 
+    background-color: white;
+    min-width: 350px;
+    min-height: 600px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 14px;
+}
+.app-success h3, p{
+    text-align: center
+}
+
+.btn-app {
+    background: #f8901c;
+    color: white;
+    min-width: 200px;
+    height: 36px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins';
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.btn-app::after {
+    content :"Mulai Preorder";
+}
+.title {
+    color: #fcbe15;
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+
+}
+.Name1, .Name2, .email, .password {
+    margin: 20px;
+    color: sandybrown;
+    font-size: 16px;
+}
+
+.password {margin-bottom: 40px;}
+.input {
+    height: 32px;
+    font-size: 20px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 10px;
+    border-top-style: none;
+    border-left-style: none;    font-family: 'Poppins';
+
+    border-right-style: none;
+    border-color: sandybrown;
+}
+.error {color: red}
+
+.submit {
+    display: flex;
+    text-transform: uppercase;
+    font-size : 20px;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 60px;
+    background: linear-gradient(to right, #ce7004, #ffd769);
+    margin: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 37px;
+
+}
+
+.button:active{
+    transform : translateY(2px);
+}
+
+.form-succes{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    min-width: 360px;
+    color : sandybrown;
+}
